@@ -1,8 +1,65 @@
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
+    body {
+        background-color: turquoise;
+    }
+    
+    .container {
+        margin: auto;
+        background-color: white;
+        max-width: 350px;
+        border-radius: 10%;
+        overflow: hidden;
+    }
+    
+    #victor_container {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border-width: 10px;
+        border-color: turquoise;
+        margin: -50px auto -30px auto;
+        overflow: hidden;
+    }
+    
+    .card {
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .Name {
+        margin-left: 120px;
+        display: flex;
+    }
+    
+    .bold {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .grey {
+        color: grey;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    #i26 {
+        color: grey;
+        font-size: 20px;
+    }
+    
+    #city {
+        color: grey;
+    }
+    
+    .bottom {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+    
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
